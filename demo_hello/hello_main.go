@@ -1,11 +1,11 @@
 package main
 
 import (
-	lib_pkg "libpkg"
+	libpkg "libpkg"
 	loginterface "second_svr/log_interface"
 )
 
 func main() {
-	lib_pkg.CallLib()
+	libpkg.CallLib()
 	loginterface.LogInfer()
 }
